@@ -5,7 +5,7 @@
 """
 import numpy as np
 
-def gaussElimin(a ,b):
+def gaussElimin(a:float,b:float):
     n = len(b)
     a = a
   # Elimination Phase
